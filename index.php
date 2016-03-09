@@ -22,6 +22,9 @@ for($i=0;$i<$count;$i++){
 <meta charset="UTF-8">
 <title>半角文字列生成サービス</title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<style>
+* { word-break:break-all; }
+</style>
 </head>
     <body>
     <h1>半角文字列生成サービス</h1>
