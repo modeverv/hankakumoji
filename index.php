@@ -55,6 +55,12 @@ if($kind == "url"){
 <meta charset="UTF-8">
 <title>半角文字列生成サービス</title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+    $(function(){
+        $("input:visible").first().focus();
+    });
+</script>    
+
 <style>
 * { word-break:break-all; }
 </style>
